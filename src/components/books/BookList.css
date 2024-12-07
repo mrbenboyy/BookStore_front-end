@@ -1,0 +1,32 @@
+
+table, th, td{
+    border: solid 1px;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+table{
+    width: 900px;
+    height: 300px;
+}
+
+td{
+    font-style: italic;
+    font-weight: 600;
+}
+
+tr:hover{
+    background-color: green;
+    color: white;
+}
+
+th{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.div_table{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}

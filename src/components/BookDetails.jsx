@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import bookPic from '../../images/book.jpg'
+import bookPic from '../images/book.jpg'
 
 function BookDetails() {
     const [title, setTitle] = useState("");

@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import BookList from './components/books/BookList';
-import BookForm from './components/books/BookForm';
-import EditBook from './components/books/EditBook';
-import BookDetails from './components/books/BookDetails';
+import BookList from './components/BookList';
+import BookForm from './components/BookForm';
+import EditBook from './components/EditBook';
+import BookDetails from './components/BookDetails';
 import HomePage from './pages/HomePage';
 import BooksPage from './pages/BooksPage';
 import OrdersPage from './pages/OrdersPage';

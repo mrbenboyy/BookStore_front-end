@@ -1,8 +1,13 @@
 import React from 'react'
+import CustomerList from '../components/CustomerList'
+import AddCustomerForm from '../components/AddCustomerForm'
 
 function CustomersPage() {
   return (
-    <div>CustomersPage</div>
+    <div>
+      <AddCustomerForm />
+      <CustomerList />
+    </div>
   )
 }
 

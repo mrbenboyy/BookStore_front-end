@@ -1,7 +1,7 @@
 import React from 'react'
-import BookList from '../components/books/BookList'
-import BookForm from '../components/books/BookForm'
-import BookDetails from '../components/books/BookDetails'
+import BookList from '../components/BookList'
+import BookForm from '../components/BookForm'
+import BookDetails from '../components/BookDetails'
 import { Route, Routes } from 'react-router-dom'
 
 function BooksPage() {
